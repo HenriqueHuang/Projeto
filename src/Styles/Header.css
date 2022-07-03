@@ -1,0 +1,46 @@
+:root{
+    --bg1: aqua;
+    --bg2: aquamarine;
+    --bg3: #eeff00;
+  }
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    align-self: center;
+}
+
+header{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 8%;
+}
+
+/*Cabeçalho*/
+
+div.HbarraPesquiza input{
+    height: 30px;
+    border-radius: 60px;
+}
+.HbarraPesquiza button{
+    height: 30px;
+    border: silver 2px;
+    border-radius: 60px;
+}
+
+.HbarraPesquiza input{
+    width: 500px;
+}
+
+header a{
+    font-size:20px;
+    color: rgb(69, 65, 65);
+}
+
+a.links:hover{
+    text-decoration: underline;
+}
